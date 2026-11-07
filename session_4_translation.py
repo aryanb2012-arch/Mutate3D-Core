@@ -18,7 +18,7 @@ def translate_sequence(rna_sequence):
         
         if not started:
             if codon == "AUG":
-                started = "True"
+                started = True
             else:
                 continue
         
